@@ -10,10 +10,11 @@ namespace HashTable
     {
         static void Main(string[] args)
         {
-            Tree<int> tree = new Tree<int>(3);
+            Tree<int> tree = new Tree<int>(30);
             tree.Insert(56);
             tree.Insert(70);
             tree.Insert(30);
+            tree.GetSize();
             tree.Display();
 
             
