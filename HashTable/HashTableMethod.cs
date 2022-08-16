@@ -88,10 +88,18 @@ namespace HashTable
             }
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> UC2HashTable
     public struct keyValues<K, V>
     {
         public K key { get; set; }
         public V Value { get; set; }
 
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> UC2HashTable
 }
