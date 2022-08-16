@@ -1,22 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
-=======
 
->>>>>>> UC2HashTable
 namespace HashTable
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Hash Table Progrma!");
-<<<<<<< HEAD
-            Console.WriteLine("Please choose the option :\n1)Frequency of a sentence\n");
-=======
+            Console.WriteLine("Welcome to the Hash Table Progrma!");
             Console.WriteLine("Please choose the option :\n1)Frequency of a sentence\n" +
               "2)Frequency of a Paragraph");
->>>>>>> UC2HashTable
             int option = Convert.ToInt16(Console.ReadLine());
             switch (option)
             {
@@ -48,9 +41,7 @@ namespace HashTable
                     hash.Display();
                     break;
 
-<<<<<<< HEAD
 
-=======
                 case 2:
                     HashTableMethod<string, int> hash2 = new HashTableMethod<string, int>(5);
                     string Word = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
@@ -78,7 +69,7 @@ namespace HashTable
                     }
                     hash2.Display();
                     break;
->>>>>>> UC2HashTable
+
             }
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HashTable
 {
-    internal class HashTableMethod<K,V>
+    internal class HashTableMethod<K, V>
     {
         public int Size { get; set; }
         public int Count { get; set; }
@@ -88,18 +88,13 @@ namespace HashTable
             }
         }
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> UC2HashTable
+
     public struct keyValues<K, V>
     {
         public K key { get; set; }
         public V Value { get; set; }
 
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> UC2HashTable
 }
